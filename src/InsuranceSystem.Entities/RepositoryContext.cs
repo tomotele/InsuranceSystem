@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using InsuranceSystem.Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,5 +18,8 @@ namespace InsuranceSystem.Entities
         {
             
         }
+
+        public DbSet<Claims> Claims { get; set; }
+        public DbSet<PolicyHolders> policyHolders { get; set; }
     }
 }
