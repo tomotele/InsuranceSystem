@@ -1,0 +1,15 @@
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\bin\Debug\net6.0\InsuranceSystem.RepositoryContracts.deps.json
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\bin\Debug\net6.0\InsuranceSystem.RepositoryContracts.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\bin\Debug\net6.0\InsuranceSystem.RepositoryContracts.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\bin\Debug\net6.0\InsuranceSystem.Entities.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\bin\Debug\net6.0\InsuranceSystem.Entities.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\InsuranceSystem.RepositoryContracts.csproj.AssemblyReference.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\InsuranceSystem.RepositoryContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\InsuranceSystem.RepositoryContracts.AssemblyInfoInputs.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\InsuranceSystem.RepositoryContracts.AssemblyInfo.cs
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\InsuranceSystem.RepositoryContracts.csproj.CoreCompileInputs.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\InsuranceSystem.RepositoryContracts.csproj.CopyComplete
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\InsuranceSystem.RepositoryContracts.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\refint\InsuranceSystem.RepositoryContracts.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\InsuranceSystem.RepositoryContracts.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryContracts\obj\Debug\net6.0\ref\InsuranceSystem.RepositoryContracts.dll

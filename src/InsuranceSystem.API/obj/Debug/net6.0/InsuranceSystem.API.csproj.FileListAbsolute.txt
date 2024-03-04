@@ -1,0 +1,7 @@
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\InsuranceSystem.API.csproj.AssemblyReference.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\InsuranceSystem.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\InsuranceSystem.API.AssemblyInfoInputs.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\InsuranceSystem.API.AssemblyInfo.cs
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\InsuranceSystem.API.csproj.CoreCompileInputs.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\InsuranceSystem.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\InsuranceSystem.API.MvcApplicationPartsAssemblyInfo.cache

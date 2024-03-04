@@ -1,0 +1,15 @@
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\bin\Debug\net6.0\InsuranceSystem.ServiceContracts.deps.json
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\bin\Debug\net6.0\InsuranceSystem.ServiceContracts.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\bin\Debug\net6.0\InsuranceSystem.ServiceContracts.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\bin\Debug\net6.0\InsuranceSystem.Entities.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\bin\Debug\net6.0\InsuranceSystem.Entities.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\InsuranceSystem.ServiceContracts.csproj.AssemblyReference.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\InsuranceSystem.ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\InsuranceSystem.ServiceContracts.AssemblyInfoInputs.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\InsuranceSystem.ServiceContracts.AssemblyInfo.cs
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\InsuranceSystem.ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\InsuranceSystem.ServiceContracts.csproj.CopyComplete
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\InsuranceSystem.ServiceContracts.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\refint\InsuranceSystem.ServiceContracts.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\InsuranceSystem.ServiceContracts.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.ServiceContracts\obj\Debug\net6.0\ref\InsuranceSystem.ServiceContracts.dll

@@ -20,7 +20,7 @@ if (systemDrives.Length >= 0)
 var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
 Log.Logger = new LoggerConfiguration()
            .MinimumLevel.Override("Microsoft.EntityFrameworkCore.Database.Command", Serilog.Events.LogEventLevel.Warning)
-                .WriteTo.File($"C:\\OffShoreLogs\\api_logs\\api-{DateTime.Now.ToString("dd-MM-yyyy")}.txt")
+                .WriteTo.File($"C:\\InsuranceLogs\\api_logs\\api-{DateTime.Now.ToString("dd-MM-yyyy")}.txt")
                 .ReadFrom.Configuration(configuration).CreateLogger();
 builder.Services.AddSingleton(Log.Logger);
 builder.Services.ConfigureLogger();

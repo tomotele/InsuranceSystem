@@ -1,0 +1,17 @@
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\bin\Debug\net6.0\InsuranceSystem.RepositoryServices.deps.json
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\bin\Debug\net6.0\InsuranceSystem.RepositoryServices.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\bin\Debug\net6.0\InsuranceSystem.RepositoryServices.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\bin\Debug\net6.0\InsuranceSystem.Entities.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\bin\Debug\net6.0\InsuranceSystem.RepositoryContracts.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\bin\Debug\net6.0\InsuranceSystem.Entities.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\bin\Debug\net6.0\InsuranceSystem.RepositoryContracts.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\InsuranceSystem.RepositoryServices.csproj.AssemblyReference.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\InsuranceSystem.RepositoryServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\InsuranceSystem.RepositoryServices.AssemblyInfoInputs.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\InsuranceSystem.RepositoryServices.AssemblyInfo.cs
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\InsuranceSystem.RepositoryServices.csproj.CoreCompileInputs.cache
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\InsuranceSystem.RepositoryServices.csproj.CopyComplete
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\InsuranceSystem.RepositoryServices.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\refint\InsuranceSystem.RepositoryServices.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\InsuranceSystem.RepositoryServices.pdb
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.RepositoryServices\obj\Debug\net6.0\ref\InsuranceSystem.RepositoryServices.dll
