@@ -11,7 +11,7 @@ namespace InsuranceSystem.Entities.Models
     public class InsuranceClaims : BaseModel
     {
         [Column("ClaimsId")]
-        public string Id { get; set; }
+        public int Id { get; set; }
         [ForeignKey(nameof(PolicyHolders))]
         public int PolicyHolderId { get; set; }
         public PolicyHolders PolicyHolders { get; set; }

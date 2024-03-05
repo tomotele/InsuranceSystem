@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace InsuranceSystem.Services.CoreServices
 {
-    internal sealed class PolicyHolderService : IPolicyHolderServices
+    public sealed class PolicyHolderService : IPolicyHolderServices
     {
         private readonly IRepositoryManager _repository;
         private readonly ILoggerManager _logger;

@@ -5,13 +5,13 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceSystem.API", "InsuranceSystem.API\InsuranceSystem.API.csproj", "{D945F597-22C3-4260-BF81-A2BECF9726EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceSystem.Entities", "InsuranceSystem.Entities\InsuranceSystem.Entities.csproj", "{AE812417-4494-4CB9-8770-132119652319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceSystem.Entities", "InsuranceSystem.Entities\InsuranceSystem.Entities.csproj", "{AE812417-4494-4CB9-8770-132119652319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceSystem.RepositoryContracts", "InsuranceSystem.RepositoryContracts\InsuranceSystem.RepositoryContracts.csproj", "{D2F7B924-CE75-436E-A4CF-D3088F289F12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceSystem.RepositoryContracts", "InsuranceSystem.RepositoryContracts\InsuranceSystem.RepositoryContracts.csproj", "{D2F7B924-CE75-436E-A4CF-D3088F289F12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceSystem.ServiceContracts", "InsuranceSystem.ServiceContracts\InsuranceSystem.ServiceContracts.csproj", "{02B1B720-66CB-4115-82C4-BCA3B16343A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceSystem.ServiceContracts", "InsuranceSystem.ServiceContracts\InsuranceSystem.ServiceContracts.csproj", "{02B1B720-66CB-4115-82C4-BCA3B16343A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceSystem.RepositoryServices", "InsuranceSystem.RepositoryServices\InsuranceSystem.RepositoryServices.csproj", "{650570D0-7995-4547-A766-50E4FFBB7F1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceSystem.RepositoryServices", "InsuranceSystem.RepositoryServices\InsuranceSystem.RepositoryServices.csproj", "{650570D0-7995-4547-A766-50E4FFBB7F1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DEAB6A64-843F-48A5-B9D1-9A5D51D75B32}"
 EndProject
@@ -21,7 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F2807F60-2D85-401D-9E51-DC706E103020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceSystem.Services", "InsuranceSystem.Services\InsuranceSystem.Services.csproj", "{7A5960F2-3AEE-48FD-BF80-95870F7A5E43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceSystem.Services", "InsuranceSystem.Services\InsuranceSystem.Services.csproj", "{7A5960F2-3AEE-48FD-BF80-95870F7A5E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceSystemTest", "InsuranceSystemTest\InsuranceSystemTest.csproj", "{A653D1FC-9FE8-40A5-ABD8-120AEBB615BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{7A5960F2-3AEE-48FD-BF80-95870F7A5E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A5960F2-3AEE-48FD-BF80-95870F7A5E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A5960F2-3AEE-48FD-BF80-95870F7A5E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A653D1FC-9FE8-40A5-ABD8-120AEBB615BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A653D1FC-9FE8-40A5-ABD8-120AEBB615BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A653D1FC-9FE8-40A5-ABD8-120AEBB615BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A653D1FC-9FE8-40A5-ABD8-120AEBB615BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

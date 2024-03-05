@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using InsuranceSystem.Entities.DTOs;
 using InsuranceSystem.Entities.Models;
-using Microsoft.Extensions.DependencyModel;
 
 namespace InsuranceSystem.API
 {

@@ -8,6 +8,7 @@ namespace InsuranceSystem.ServiceContracts.UtilityServiceInterface
 {
     public interface ILoggerManager
     {
+
         public void LogDebug(string message, params object[] args);
 
         public void LogError(string message, params object[] args);

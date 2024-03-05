@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "w9LHTy1PyTptfJL1osKHeeQCzacvLTU55dMEGMOzpOFWHibjsz8qUk/7cJsQUr8ygkEn0wm7aOecQtz9VwNUxA==",
+  "dgSpecHash": "SXH6hTVTpTZ7e0HTFgb6Oj+soI5KGcjg++HSmMAP6felUsLl+4hf/w8NzbfaIZUxP0gvrF8Dl/CyMWSlwqn2sQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\tomotelet\\source\\MainRepo\\InsuranceSystem\\src\\InsuranceSystem.API\\InsuranceSystem.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tomotelet\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\tomotelet\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\tomotelet\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.27\\microsoft.entityframeworkcore.6.0.27.nupkg.sha512",

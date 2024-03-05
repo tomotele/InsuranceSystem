@@ -19,7 +19,7 @@ using System.Transactions;
 
 namespace InsuranceSystem.Services.CoreServices
 {
-    internal sealed class ClaimsServices : IClaimsServices
+    public sealed class ClaimsServices : IClaimsServices
     {
         private readonly IRepositoryManager _repository;
         private readonly ILoggerManager _logger;
@@ -86,7 +86,7 @@ namespace InsuranceSystem.Services.CoreServices
             {
                 response.Message = $"An error occured while getting Insurance claims with Id : {JsonConvert.SerializeObject(logSerializer.Id)}";
                 response.Errors.Add(new ServiceError(Message.ErrorCode.ERROR, $"An error occured while getting Insurance claims with Id : {JsonConvert.SerializeObject(logSerializer.Id)} due to {ex.Message}"));
-                _logger.LogError($"Error occured while trying to get Insurance claims with Id : {JsonConvert.SerializeObject(logSerializer)} due to {ex.Message}");
+                _logger.LogError($"Error occured while trying to get Insurance claims with Id : {JsonConvert.SerializeObject(logSerializer.Id)} due to {ex.Message}");
                 return response;
             }
             return response;
@@ -133,7 +133,7 @@ namespace InsuranceSystem.Services.CoreServices
             try
             {
                 _logger.LogInformation($"About to approve claims with Id : {claims.ClaimsId}");
-                var insuranceClaims = await _repository.ClaimsRepository.GetClaimsByIdAsync(claims.ClaimsId, false);
+                var insuranceClaims = await _repository.ClaimsRepository.GetClaimsByIdAsync(claims.ClaimsId, true);
                 if (insuranceClaims != null)
                 {
                     insuranceClaims.UpdatedDate = DateTime.Now;
@@ -171,7 +171,7 @@ namespace InsuranceSystem.Services.CoreServices
             try
             {
                 _logger.LogInformation($"About to reject claims with Id : {claims.ClaimsId}");
-                var insuranceClaims = await _repository.ClaimsRepository.GetClaimsByIdAsync(claims.ClaimsId, false);
+                var insuranceClaims = await _repository.ClaimsRepository.GetClaimsByIdAsync(claims.ClaimsId, true);
                 if (insuranceClaims != null)
                 {
                     insuranceClaims.UpdatedDate = DateTime.Now;

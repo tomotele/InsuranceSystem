@@ -1,4 +1,5 @@
 using InsuranceSystem.API.Extensions;
+using Microsoft.AspNetCore.Hosting;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +11,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
+builder.Services.ConfigureRepositoryManager();
+builder.Services.ConfigureServiceManager();
+builder.Services.ConfigureFilters();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.ConfigureSqlContext(builder.Configuration);
 
 #region Logging Services
 string[] systemDrives = Environment.GetLogicalDrives();

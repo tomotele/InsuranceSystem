@@ -464,6 +464,7 @@
       },
       "InsuranceSystem.Entities/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.27",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.27"
         },
         "runtime": {
