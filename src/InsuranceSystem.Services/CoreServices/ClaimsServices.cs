@@ -24,14 +24,12 @@ namespace InsuranceSystem.Services.CoreServices
         private readonly IRepositoryManager _repository;
         private readonly ILoggerManager _logger;
         private readonly IMapper _mapper;
-        private readonly IConfiguration _configuration;
 
-        public ClaimsServices(IRepositoryManager repository, ILoggerManager logger, IMapper mapper, IConfiguration configuration)
+        public ClaimsServices(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
         {
             _repository = repository;
             _logger = logger;
             _mapper = mapper;
-            _configuration = configuration;
         }
 
         #region CREATE_CLAIMS
@@ -106,7 +104,7 @@ namespace InsuranceSystem.Services.CoreServices
                 if (claims.Count() > 0)
                 {
                     _logger.LogInformation("Insurance claims retrived from database successfully");
-                    response.Message = $"Successfully retrieved allinsurance claims";
+                    response.Message = $"Successfully retrieved all insurance claims";
                     response.Result = claims;
                 }
                 else

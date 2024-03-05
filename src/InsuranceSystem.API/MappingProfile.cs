@@ -10,6 +10,7 @@ namespace InsuranceSystem.API
         public MappingProfile()
         {
             CreateMap<InsuranceClaims, InsuranceClaimsDTO>().ReverseMap();
+            CreateMap<PolicyHolders, PolicyHolderDTO>().ReverseMap();
 
         }
     }

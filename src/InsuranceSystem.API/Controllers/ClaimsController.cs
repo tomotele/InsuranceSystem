@@ -20,7 +20,7 @@ namespace InsuranceSystem.API.Controllers
         #region CREATE_CLAIMS
         [HttpPost("CreateClaims", Name = "CreateClaims")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
-        public async Task<IActionResult> CreateOffpassFormAAsync([Bind(InsuranceClaimsDTO.BindProperty)][FromBody] InsuranceClaimsDTO claims)
+        public async Task<IActionResult> CreateClaimsAsync([Bind(InsuranceClaimsDTO.BindProperty)][FromBody] InsuranceClaimsDTO claims)
         {
             ServiceResponse response = new ServiceResponse();
 

@@ -10,5 +10,6 @@ namespace InsuranceSystem.ServiceContracts
     public interface IServiceManager
     {
         IClaimsServices ClaimsServices { get; }
+        IPolicyHolderServices PolicyHolderService { get; }
     }
 }

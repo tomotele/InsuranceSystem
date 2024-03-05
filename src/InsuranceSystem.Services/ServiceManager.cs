@@ -17,16 +17,18 @@ namespace InsuranceSystem.Services
     public sealed class ServiceManager : IServiceManager
     {
         private readonly Lazy<IClaimsServices> _claimsServices;
+        private readonly Lazy<IPolicyHolderServices> _policyHolderServices;
 
         public ServiceManager(
             IRepositoryManager repositoryManager,
             ILoggerManager logger,
-            IMapper mapper,
-            IConfiguration configuration)
+            IMapper mapper)
         {
-            _claimsServices = new Lazy<IClaimsServices>(() => new ClaimsServices(repositoryManager, logger, mapper, configuration));
+            _claimsServices = new Lazy<IClaimsServices>(() => new ClaimsServices(repositoryManager, logger, mapper));
+            _policyHolderServices = new Lazy<IPolicyHolderServices>(() => new PolicyHolderService(repositoryManager, logger, mapper));
         }
 
         public IClaimsServices ClaimsServices => _claimsServices.Value;
+        public IPolicyHolderServices PolicyHolderService => _policyHolderServices.Value;
     }
 }
