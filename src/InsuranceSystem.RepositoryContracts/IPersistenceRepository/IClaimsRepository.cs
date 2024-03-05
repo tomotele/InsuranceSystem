@@ -9,8 +9,8 @@ namespace InsuranceSystem.RepositoryContracts.IPersistenceRepository
 {
     public interface IClaimsRepository
     {
-        void CreateClaims(Claims claims);
-        Task<Claims> GetClaimsByIdAsync(int Id, bool trackChanges);
-        Task<IEnumerable<Claims>> GetAllClaimsAsync(bool trackChanges);
+        void CreateClaims(InsuranceClaims claims);
+        Task<InsuranceClaims> GetClaimsByIdAsync(int Id, bool trackChanges);
+        Task<IEnumerable<InsuranceClaims>> GetAllClaimsAsync(bool trackChanges);
     }
 }

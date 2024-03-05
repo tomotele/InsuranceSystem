@@ -11,20 +11,20 @@ using Microsoft.EntityFrameworkCore;
 
 namespace InsuranceSystem.RepositoryServices.PersistenceRepository
 {
-    public class ClaimsRepository : RepositoryBase<Claims>, IClaimsRepository
+    public class ClaimsRepository : RepositoryBase<InsuranceClaims>, IClaimsRepository
     {
         public ClaimsRepository(RepositoryContext repositoryContext) : base(repositoryContext)
         {
 
         }
 
-        public void CreateClaims(Claims claims) => Create(claims);
+        public void CreateClaims(InsuranceClaims claims) => Create(claims);
 
-        public async Task<Claims> GetClaimsByIdAsync(int Id, bool trackChanges) =>
+        public async Task<InsuranceClaims> GetClaimsByIdAsync(int Id, bool trackChanges) =>
         await FindByCondition(c => c.Id.Equals(Id), trackChanges)
         .SingleOrDefaultAsync();
 
-        public async Task<IEnumerable<Claims>> GetAllClaimsAsync(bool trackChanges) =>
+        public async Task<IEnumerable<InsuranceClaims>> GetAllClaimsAsync(bool trackChanges) =>
         await FindAll(trackChanges)
         .OrderBy(c => c.CreatedDate)
         .ToListAsync();

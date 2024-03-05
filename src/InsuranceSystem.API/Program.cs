@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.ConfigureCors();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 #region Logging Services
 string[] systemDrives = Environment.GetLogicalDrives();
@@ -38,6 +40,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting();
+app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 app.Use(async (context, next) =>

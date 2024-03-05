@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.27">
       <PrivateAssets>all</PrivateAssets>
@@ -28,10 +29,6 @@
     <ProjectReference Include="..\InsuranceSystem.Entities\InsuranceSystem.Entities.csproj" />
     <ProjectReference Include="..\InsuranceSystem.RepositoryServices\InsuranceSystem.RepositoryServices.csproj" />
     <ProjectReference Include="..\InsuranceSystem.Services\InsuranceSystem.Services.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RyZhFdV4S4ApACIrBcDlacso3GV+do9FohwzXPG/0+S/jkJfTgBzS9+WeCCv/mURpoi672Ex/rOT3YJuPO2iOQ==",
+  "dgSpecHash": "w9LHTy1PyTptfJL1osKHeeQCzacvLTU55dMEGMOzpOFWHibjsz8qUk/7cJsQUr8ygkEn0wm7aOecQtz9VwNUxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tomotelet\\source\\MainRepo\\InsuranceSystem\\src\\InsuranceSystem.API\\InsuranceSystem.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tomotelet\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
@@ -40,6 +41,7 @@
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\tomotelet\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\serilog.aspnetcore\\8.0.1\\serilog.aspnetcore.8.0.1.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",

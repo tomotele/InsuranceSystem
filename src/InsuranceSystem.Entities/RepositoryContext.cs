@@ -19,7 +19,7 @@ namespace InsuranceSystem.Entities
             
         }
 
-        public DbSet<Claims> Claims { get; set; }
+        public DbSet<InsuranceClaims> InsuranceClaims { get; set; }
         public DbSet<PolicyHolders> policyHolders { get; set; }
     }
 }
