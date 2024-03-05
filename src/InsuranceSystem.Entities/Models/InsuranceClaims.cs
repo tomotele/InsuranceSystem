@@ -21,5 +21,7 @@ namespace InsuranceSystem.Entities.Models
         public decimal Amount { get; set; }
         public DateTime ExpenseDate { get; set; }
         public string ClaimStatus { get; set; }
+        public string ModifiedBy { get; set; }
+        public string Comment { get; set; }
     }
 }

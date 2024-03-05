@@ -13,10 +13,14 @@ namespace InsuranceSystem.Entities.DTOs
         [DataType(DataType.Text)]
         public const string BindProperty = "PolicyHolderNationalID,ExpenseName,Amount,ExpenseType,ExpenseDate";
 
+        [Required(ErrorMessage = "Kindly input the policy holder national identification number")]
         public int PolicyHolderNationalID { get; set; }
+        [Required(ErrorMessage = "Kindly input the policy holder Id")]
+        public int PolicyHolderId { get; set; }
         public string ExpenseName { get; set; }
         public decimal Amount { get; set; }
         public ExpenseType ExpenseType { get; set; }
+        [Required(ErrorMessage = "Kindly input the date of expense")]
         public DateTime ExpenseDate { get; set; }
     }
 }

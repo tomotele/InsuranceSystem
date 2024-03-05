@@ -13,10 +13,8 @@ namespace InsuranceSystem.ServiceContracts.CoreServicesInterface
     {
         Task<ServiceResponse> CreateClaims(InsuranceClaimsDTO insuranceClaims);
         Task<ServiceResponse<IEnumerable<InsuranceClaims>>> GetAllClaims();
-        Task<ServiceResponse> GetClaimById(int id);
-        Task<ServiceResponse> ApproveClaim(int Id);
-        Task<ServiceResponse> RejectClaim(int Id);
-        Task<ServiceResponse> UpdateClaim(InsuranceClaimsDTO insuranceClaims);
-        Task<ServiceResponse> DeleteClaimById(int Id);
+        Task<ServiceResponse<InsuranceClaims>> GetClaimById(int id);
+        Task<ServiceResponse> ApproveClaim(UpdateClaimsDTO claims);
+        Task<ServiceResponse> RejectClaim(UpdateClaimsDTO claims);
     }
 }

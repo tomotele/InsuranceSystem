@@ -20,6 +20,8 @@ namespace InsuranceSystem.RepositoryServices.PersistenceRepository
 
         public void CreateClaims(InsuranceClaims claims) => Create(claims);
 
+        public void UpdateClaims(InsuranceClaims claims) => Update(claims);
+
         public async Task<InsuranceClaims> GetClaimsByIdAsync(int Id, bool trackChanges) =>
         await FindByCondition(c => c.Id.Equals(Id), trackChanges)
         .SingleOrDefaultAsync();
