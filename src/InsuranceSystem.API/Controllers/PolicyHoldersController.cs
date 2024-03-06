@@ -3,6 +3,7 @@ using InsuranceSystem.Entities.DTOs;
 using InsuranceSystem.Entities.Models;
 using InsuranceSystem.Entities.Responses;
 using InsuranceSystem.ServiceContracts;
+using Marvin.Cache.Headers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InsuranceSystem.API.Controllers
@@ -45,6 +46,8 @@ namespace InsuranceSystem.API.Controllers
 
         #region GET_POLICY_HOLDER_BY_ID
         [HttpGet("PolicyHolderByID/{Id}", Name = "PolicyHolderByID")]
+        [HttpCacheExpiration(CacheLocation = CacheLocation.Public, MaxAge = 60)]
+        [HttpCacheValidation(MustRevalidate = false)]
         public async Task<IActionResult> GetPolicyHolderByIdAsync(int Id)
         {
             ServiceResponse<PolicyHolders> response = new ServiceResponse<PolicyHolders>();
@@ -73,6 +76,8 @@ namespace InsuranceSystem.API.Controllers
 
         #region GET_ALL_POLICY_HOLDERS
         [HttpGet("GetAllPolicyHolders", Name = "GetAllPolicyHolders")]
+        [HttpCacheExpiration(CacheLocation = CacheLocation.Public, MaxAge = 60)]
+        [HttpCacheValidation(MustRevalidate = false)]
         public async Task<IActionResult> GetAllPolicyHoldersAsync()
         {
             ServiceResponse<IEnumerable<PolicyHolders>> response = new ServiceResponse<IEnumerable<PolicyHolders>>();

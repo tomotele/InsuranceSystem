@@ -97,3 +97,5 @@ C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\D
 C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\InsuranceSystem.API.genruntimeconfig.cache
 C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\obj\Debug\net6.0\ref\InsuranceSystem.API.dll
 C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\bin\Debug\net6.0\AspNetCoreRateLimit.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystem.API\bin\Debug\net6.0\Marvin.Cache.Headers.dll

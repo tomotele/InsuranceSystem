@@ -185,3 +185,5 @@ C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystemTest\bin\D
 C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystemTest\bin\Debug\net6.0\InsuranceSystem.API.dll
 C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystemTest\bin\Debug\net6.0\InsuranceSystem.API.pdb
 C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystemTest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystemTest\bin\Debug\net6.0\AspNetCoreRateLimit.dll
+C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src\InsuranceSystemTest\bin\Debug\net6.0\Marvin.Cache.Headers.dll

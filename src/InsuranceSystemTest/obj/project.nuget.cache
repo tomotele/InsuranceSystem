@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0u6xiFgts9UUp14H3Rsb3gHxhG5SJqqiCqX+qlcsgGEq6ec88xTi6W5iCkPGAfkoMCEDo80zyrDRKdo23CRO/w==",
+  "dgSpecHash": "7nrPJxTDXONMFwJnPhlZriMEEkWR26Kb22y/zTyL0+qsrmZa/J4+NNBAXEUF/5Hl9AIwhWjw+ExhvVbRVJxwRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\tomotelet\\source\\MainRepo\\InsuranceSystem\\src\\InsuranceSystemTest\\InsuranceSystemTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tomotelet\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\autofixture\\4.18.1\\autofixture.4.18.1.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\autofixture.automoq\\4.18.1\\autofixture.automoq.4.18.1.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\tomotelet\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
+    "C:\\Users\\tomotelet\\.nuget\\packages\\marvin.cache.headers\\7.1.0\\marvin.cache.headers.7.1.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

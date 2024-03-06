@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AspNetCoreRateLimit/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.3",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/net6.0/AspNetCoreRateLimit.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AspNetCoreRateLimit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "AutoMapper/12.0.0": {
         "type": "package",
         "dependencies": {
@@ -43,6 +61,22 @@
             "related": ".xml"
           }
         }
+      },
+      "Marvin.Cache.Headers/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Marvin.Cache.Headers.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Marvin.Cache.Headers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
@@ -1305,6 +1339,18 @@
     }
   },
   "libraries": {
+    "AspNetCoreRateLimit/5.0.0": {
+      "sha512": "6fq9+o1maGADUmpK/PvcF0DtXW2+7bSkIL7MDIo/agbIHKN8XkMQF4oze60DO731WaQmHmK260hB30FwPzCmEg==",
+      "type": "package",
+      "path": "aspnetcoreratelimit/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcoreratelimit.5.0.0.nupkg.sha512",
+        "aspnetcoreratelimit.nuspec",
+        "lib/net6.0/AspNetCoreRateLimit.dll"
+      ]
+    },
     "AutoMapper/12.0.0": {
       "sha512": "0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
       "type": "package",
@@ -1348,6 +1394,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Marvin.Cache.Headers/7.1.0": {
+      "sha512": "i8IaybBcEij4apN51gwU5/J2VML5+qbJMC33nf3GD/sXUO5lco0VFkCxNBsjKhmiXUYjwwVJtFFmIq+BLTda7A==",
+      "type": "package",
+      "path": "marvin.cache.headers/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Marvin.Cache.Headers.dll",
+        "lib/net7.0/Marvin.Cache.Headers.dll",
+        "lib/net8.0/Marvin.Cache.Headers.dll",
+        "marvin.cache.headers.7.1.0.nupkg.sha512",
+        "marvin.cache.headers.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -3318,10 +3379,12 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AspNetCoreRateLimit >= 5.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "InsuranceSystem.Entities >= 1.0.0",
       "InsuranceSystem.RepositoryServices >= 1.0.0",
       "InsuranceSystem.Services >= 1.0.0",
+      "Marvin.Cache.Headers >= 7.1.0",
       "Microsoft.EntityFrameworkCore >= 6.0.27",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.27",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.27",
@@ -3390,9 +3453,17 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AspNetCoreRateLimit": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.0, )"
+          },
+          "Marvin.Cache.Headers": {
+            "target": "Package",
+            "version": "[7.1.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

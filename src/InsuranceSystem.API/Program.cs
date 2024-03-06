@@ -1,12 +1,22 @@
+using AspNetCoreRateLimit;
 using InsuranceSystem.API.Extensions;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(config =>
+{
+    config.RespectBrowserAcceptHeader = true;
+    config.ReturnHttpNotAcceptable = true;
+    config.CacheProfiles.Add("120SecondsDuration", new CacheProfile
+    {
+        Duration = 120
+    });
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -16,6 +26,14 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureFilters();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.ConfigureSqlContext(builder.Configuration);
+
+//CACHING
+builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureHttpCacheHeaders();
+//RATE LIMITING
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimitingOptions();
+builder.Services.AddHttpContextAccessor();
 
 #region Logging Services
 string[] systemDrives = Environment.GetLogicalDrives();
@@ -46,9 +64,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
+app.UseResponseCaching();
+app.UseHttpCacheHeaders();
 app.Use(async (context, next) =>
 {
     context.Response.Headers.Add("X-Frame-Options", "DENY");
