@@ -64,7 +64,7 @@ namespace InsuranceSystem.Services.CoreServices
             {
                 _logger.LogInformation($"About to retrive policy holder with Id : {JsonConvert.SerializeObject(logSerializer.Id)} from the database");
                 var policyHolder = await _repository.PolicyHolderRepository.GetPolicyHolderByIdAsync(id, false);
-                if (policyHolder != null)
+                if (policyHolder is not null)
                 {
                     _logger.LogInformation($"Policy holder with Id : {JsonConvert.SerializeObject(logSerializer.Id)} retrived from database successfully");
                     response.Message = $"Successfully retrieved policy holder with Id : {JsonConvert.SerializeObject(logSerializer.Id)}";

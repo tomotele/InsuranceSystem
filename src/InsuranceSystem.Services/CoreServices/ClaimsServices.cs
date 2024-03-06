@@ -6,16 +6,7 @@ using InsuranceSystem.Entities.Responses;
 using InsuranceSystem.RepositoryContracts.IUnitOfWork;
 using InsuranceSystem.ServiceContracts.CoreServicesInterface;
 using InsuranceSystem.ServiceContracts.UtilityServiceInterface;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Transactions;
 
 namespace InsuranceSystem.Services.CoreServices
 {
@@ -68,7 +59,7 @@ namespace InsuranceSystem.Services.CoreServices
             {
                 _logger.LogInformation($"About to retrive insurance claims with Id : {JsonConvert.SerializeObject(logSerializer.Id)} from the database");
                 var claims = await _repository.ClaimsRepository.GetClaimsByIdAsync(id, false);
-                if (claims != null)
+                if (claims is not null)
                 {
                     _logger.LogInformation($"Insurance claims  with Id : {JsonConvert.SerializeObject(logSerializer.Id)} retrived from database successfully");
                     response.Message = $"Successfully retrieved Insurance claims  with Id : {JsonConvert.SerializeObject(logSerializer.Id)}";
@@ -134,7 +125,7 @@ namespace InsuranceSystem.Services.CoreServices
             {
                 _logger.LogInformation($"About to approve claims with Id : {claims.ClaimsId}");
                 var insuranceClaims = await _repository.ClaimsRepository.GetClaimsByIdAsync(claims.ClaimsId, true);
-                if (insuranceClaims != null)
+                if (insuranceClaims is not null)
                 {
                     insuranceClaims.UpdatedDate = DateTime.Now;
                     insuranceClaims.ModifiedBy = claims.User;
@@ -172,7 +163,7 @@ namespace InsuranceSystem.Services.CoreServices
             {
                 _logger.LogInformation($"About to reject claims with Id : {claims.ClaimsId}");
                 var insuranceClaims = await _repository.ClaimsRepository.GetClaimsByIdAsync(claims.ClaimsId, true);
-                if (insuranceClaims != null)
+                if (insuranceClaims is not null)
                 {
                     insuranceClaims.UpdatedDate = DateTime.Now;
                     insuranceClaims.ModifiedBy = claims.User;
