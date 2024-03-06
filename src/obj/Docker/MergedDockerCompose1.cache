@@ -1,0 +1,33 @@
+name: dockercompose4240604260592082502
+services:
+  insurancesystem.api:
+    build:
+      context: C:\Users\tomotelet\source\MainRepo\InsuranceSystem\src
+      dockerfile: InsuranceSystem.API/Dockerfile
+    container_name: insurancesystem.api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: insurancesystemapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5000"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\tomotelet\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\tomotelet\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose4240604260592082502_default

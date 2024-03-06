@@ -61,8 +61,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
+//Commented out to run docker on http due to certificate issue with https
+//app.UseHttpsRedirection();
 app.UseRouting();
 app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
@@ -70,13 +70,15 @@ app.UseCors("CorsPolicy");
 app.UseAuthorization();
 app.UseResponseCaching();
 app.UseHttpCacheHeaders();
+
+//Commented out to run docker on http due to certificate requirement on https
 app.Use(async (context, next) =>
 {
     context.Response.Headers.Add("X-Frame-Options", "DENY");
     context.Response.Headers.Add("X-Content-Type-Options", "nosniff");
-    context.Response.Headers.Add("Content-Security-Policy", "frame-ancestors");
-    context.Response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
-    context.Response.Headers.Add("X-XSS-Protection", "1;mode=block");
+    //context.Response.Headers.Add("Content-Security-Policy", "frame-ancestors");
+    //context.Response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
+    //context.Response.Headers.Add("X-XSS-Protection", "1;mode=block");
     await next();
 });
 

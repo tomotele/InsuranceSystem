@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9HGOxf1JWyQzQoqgb4hkQOWM/+R7hzy9HfgqL5gA/LBp9KwuZ/dpnxgoFu2XaqQ5UBAvt9NcWK3vEUrNDsnY/w==",
+  "dgSpecHash": "XwWhqXeV6Sygd06ODm8bUMhb5xJSbzhklpcBL08kZYa8e77ddGoZ1PY+La8pknYw03I8ag1WbuIF8y4sGXQKug==",
   "success": true,
   "projectFilePath": "C:\\Users\\tomotelet\\source\\MainRepo\\InsuranceSystem\\src\\InsuranceSystem.API\\InsuranceSystem.API.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\tomotelet\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
