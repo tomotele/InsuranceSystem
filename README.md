@@ -11,6 +11,9 @@ Before you begin, ensure you have the following installed:
 Visual Studio Code or Visual Studio 2022
 
 MSSQL
+
+Docker Desktop
+
 ## Here's a step-by-step guide for running the code
 1 Clone the Repository: Clone the application repository to your local machine using Git. 
 
@@ -20,11 +23,20 @@ MSSQL
 
 4 Run Migrations: Open the Package Manager Console in Visual Studio 2022 (View -> Other Windows -> Package Manager Console). 
 Run the following commands to apply migrations and update the database:
-
+```
 Add-Migration InitialCreate
-
+```
+```
 Update-Database
+```
 
+5 Building The Docker Images: To build the images, make sure you have cloned the project to your machine, then run the following;
+
+right click on the docker compose project file and then click on open in terminal to run the following command
+
+```
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+```
 5 Run the Application: Build the solution in Visual Studio 2022, and then press F5 or click on the "Start" button to run the application. The application should now be up and running, and you can access it through your web browser or testing tool of choice.
 
 ## Technologies Used
@@ -44,3 +56,5 @@ The following technologies and libraries were used in this project:
 - Serilog: Logging framework for structured logging.
   
 - Marvin.Cache.Headers: Library for adding caching headers to HTTP responses.
+
+- Docker/Docker Compose: Used for Containerization
